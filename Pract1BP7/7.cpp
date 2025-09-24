@@ -7,9 +7,7 @@ int main()
     {
         int factorial = 1;
         for (int i2 = 1; i2 <= i; i2++)
-        {
             factorial *= i2;
-        }
         sum += factorial;
     }
     int average = sum / 5;
